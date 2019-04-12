@@ -1,0 +1,25 @@
+/*
+length
+indexOf
+toUpperCase
+toLowerCase
+endsWith
+startsWith
+replace
+trim
+parseFloat parseInt
+
+
+STRINGS
+split
+charAt
+slice
+
+
+ARRAY
+length
+push
+forEach
+splice
+indexOf
+*/
