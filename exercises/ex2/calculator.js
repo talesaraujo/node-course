@@ -16,3 +16,4 @@ function pow(x, y) {
 }
 
 
+module.exports = { sum, subtract, multiply, divide, pow }
