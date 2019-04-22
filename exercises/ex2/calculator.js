@@ -4,7 +4,17 @@ var subtract = (x, y) => x - y;
 
 var multiply = (x, y) => x * y;
 
-var divide = (x, y) => (y === 0) ? undefined : x / y;
+function divide(x, y) {
+    if ((x === 0) && (y === 0)) {
+        return NaN;
+    }
+    else if(y === 0) {
+        return Infinity;
+    }
+    else {
+        return x / y;
+    }
+}
 
 function pow(x, y) {
     var p = 1;
@@ -15,5 +25,4 @@ function pow(x, y) {
     return p;
 }
 
-
-module.exports = { sum, subtract, multiply, divide, pow }
+module.exports = { sum, subtract, multiply, divide, pow };
